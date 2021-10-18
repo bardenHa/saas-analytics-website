@@ -2,13 +2,14 @@
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
-    "plugin:@next/next/recommended",
     "airbnb",
+    "plugin:@next/next/recommended",
     "prettier"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "arrow-body-style": "off"
   }
 }
