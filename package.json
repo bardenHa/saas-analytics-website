@@ -11,7 +11,13 @@
     "type": "tsc --pretty --noEmit",
     "format-check": "prettier --check .",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pre-commit-checks": "./scripts/pre-commit-checks.sh"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "npm run pre-commit-checks"
+    ]
   },
   "dependencies": {
     "next": "11.1.2",
