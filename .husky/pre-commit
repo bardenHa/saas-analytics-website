@@ -10,13 +10,6 @@ npm run format-check ||
     false;
 )
 
-# Check types
-npm run type-check ||
-(
-    echo 'Type Check Failed❌ Run npm run format, add changes and try commit again.';
-    false;
-)
-
 # Check ESLint Standards
 npm run lint-check ||
 (
