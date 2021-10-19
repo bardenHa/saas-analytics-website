@@ -1,8 +1,8 @@
 name: Node CI
 on: [push]
 jobs:
-  eslint:
-    name: Lint check repo
+  prettier:
+    name: format check repo
     runs-on: ubuntu-latest
 
     steps:
@@ -12,4 +12,4 @@ jobs:
       - name: Install packages
         run: npm i
       - name: Run eslint
-        run: npm run lint-check
+        run: npm run format-check
