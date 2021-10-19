@@ -13,17 +13,6 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.@(ts|tsx)": [
-      "npm run lint-check",
-      "npm run format-check"
-    ]
-  },
   "dependencies": {
     "next": "11.1.2",
     "react": "17.0.2",
