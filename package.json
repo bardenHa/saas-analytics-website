@@ -2,14 +2,27 @@
   "name": "saas-analytics-website",
   "version": "0.1.0",
   "private": true,
+  "description": "saas website for practice",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "lint-check": "eslint . --ext ts --ext tsx --ext js",
     "type-check": "tsc --pretty --noEmit",
     "format-check": "prettier --check .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "./scripts/pre-commit"
+    }
+  },
+  "lint-staged": {
+    "*.@(ts|tsx)": [
+      "npm run lint-check",
+      "npm run format-check"
+    ]
   },
   "dependencies": {
     "next": "11.1.2",
