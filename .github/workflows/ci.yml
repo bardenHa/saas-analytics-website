@@ -11,5 +11,5 @@ jobs:
 
       - name: Install packages
         run: npm i
-      - name: Run eslint
+      - name: Run prettier
         run: npm run format-check
