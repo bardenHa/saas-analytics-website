@@ -1,0 +1,44 @@
+name: Build and Test
+
+on: [pull_request]
+
+jobs:
+  buildAndTest:
+    name: Build and test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Set timezone to London
+        run: sudo timedatectl set-timezone Europe/London
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install packages
+        run: npm ci
+
+      - name: Run prettier check
+        run: npm run prettier-check
+
+      - name: Run eslint check
+        run: npm run lint-check
+
+      - name: Run Typescript check
+        run: npm run type-check
+
+      - name: Run unit tests
+        run: npm run test-unit
+
+      - name: Build dist
+        run: npm run build
