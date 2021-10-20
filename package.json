@@ -12,7 +12,9 @@
     "lint-check": "eslint . --ext ts --ext tsx --ext js",
     "type-check": "tsc --pretty --noEmit",
     "prettier-check": "prettier --check .",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "test-unit": "jest --passWithNoTests",
+    "test-unit-update": "jest --passWithNoTests --updateSnapshot"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -21,11 +23,16 @@
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^11.1.2",
+    "@testing-library/dom": "^8.10.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.11.1",
     "@types/react": "17.0.30",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "autoprefixer": "^10.3.7",
+    "babel-jest": "^27.3.1",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -33,9 +40,11 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
+    "jest": "^27.3.1",
     "postcss": "^8.3.9",
     "prettier": "^2.4.1",
     "tailwindcss": "^2.2.17",
+    "ts-node": "^10.3.0",
     "typescript": "4.4.4"
   }
 }
