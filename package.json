@@ -1,6 +1,8 @@
 {
   "name": "saas-analytics-website",
   "version": "0.1.0",
+  "author": "Harry Barden",
+  "license": "MIT",
   "private": true,
   "description": "saas website for practice",
   "scripts": {
@@ -8,9 +10,9 @@
     "build": "next build",
     "start": "next start",
     "lint-check": "eslint . --ext ts --ext tsx --ext js",
-    "type": "tsc --pretty --noEmit",
-    "format-check": "prettier --check .",
-    "format": "prettier --write ."
+    "type-check": "tsc --pretty --noEmit",
+    "prettier-check": "prettier --check .",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "11.1.2",
