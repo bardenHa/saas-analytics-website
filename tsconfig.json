@@ -15,7 +15,15 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["app/*"],
+      "@element/*": ["app/components/elements/*"],
+      "@layout/*": ["app/components/layouts/*"],
+      "@module/*": ["app/components/modules/*"],
+      "@template/*": ["app/components/templates/*"],
+      "@constant/*": ["app/constants/*"],
+      "@context/*": ["app/context/*"],
+      "@hook/*": ["app/hooks/*"],
+      "@util/*": ["app/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"],
