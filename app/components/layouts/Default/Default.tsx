@@ -3,7 +3,7 @@ type Props = {
 };
 
 const Default = ({ children }: Props) => (
-  <main className="h-screen bg-red-500">
+  <main className="h-screen bg-base">
     <div className="container h-full mx-auto">{children}</div>
   </main>
 );
