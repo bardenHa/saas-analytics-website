@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Logo from '/public/assets/logo/main.png';
+import CTAButton from '@element/CTAButton';
 
 const NavBar = () => (
   <header className="top-0 flex items-center w-full py-12 text-base text-chart">
@@ -12,8 +13,7 @@ const NavBar = () => (
       <button className="hover:underline">About</button>
     </div>
     <div>
-      <button>Sign In</button>
-      <button>Sign Up</button>
+      <CTAButton text={'Sign Up'} />
     </div>
   </header>
 );

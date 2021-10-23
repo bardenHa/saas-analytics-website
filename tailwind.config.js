@@ -30,6 +30,7 @@ module.exports = {
         chart: '#EEEEF6',
         'primary-text': '#172755',
         'secondary-text': '#8794BA',
+        outline: '#465B95',
       },
     },
   },
