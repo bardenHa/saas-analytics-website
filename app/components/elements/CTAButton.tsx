@@ -4,7 +4,7 @@ type Props = {
 
 const CTAButton = ({ text }: Props) => {
   return (
-    <button className="p-2 px-12 border border-solid rounded-full border-outline">
+    <button className="hidden p-2 px-12 border border-solid rounded-full border-outline md:inline-block">
       {text}
     </button>
   );
