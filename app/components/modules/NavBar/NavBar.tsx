@@ -3,8 +3,10 @@ import Logo from '/public/assets/logo/main.png';
 import CTAButton from '@element/CTAButton';
 import DrawerButton from '@element/DrawerButton';
 import MenuIcon from '@mui/icons-material/MenuRounded';
+import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import { SwipeableDrawer } from '@mui/material';
 import { useState } from 'react';
+import Link from 'next/link';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +15,11 @@ const NavBar = () => {
   };
   return (
     <header className="top-0 flex items-center w-full px-6 py-6 text-base md:py-12 text-chart md:px-0">
-      <Image src={Logo} alt="analytics logo" width={184} height={40} />
+      <Link href="/">
+        <a>
+          <Image src={Logo} alt="analytics logo" width={184} height={40} />
+        </a>
+      </Link>
       <div className="flex-1 pl-20 space-x-10">
         <button className="hidden hover:underline lg:inline-block">
           Products
@@ -35,7 +41,7 @@ const NavBar = () => {
       </div>
       <button
         onClick={handleDrawerClick}
-        className="px-1 rounded-md lg:hidden text-secondary-text hover:bg-outline active:bg-primary active:text-white"
+        className="px-1 rounded-md lg:hidden text-secondary-text md:hover:bg-outline active:bg-primary active:text-white"
       >
         <MenuIcon fontSize="large" />
       </button>
@@ -61,6 +67,12 @@ export const Drawer = ({
       onOpen={toggleDrawer}
     >
       <div className="flex flex-col w-screen h-full p-4 space-y-4 text-white bg-chart md:w-96">
+        <button
+          onClick={toggleDrawer}
+          className="self-end w-10 py-2 text-center text-primary-text"
+        >
+          <CloseRoundedIcon fontSize="large" />
+        </button>
         <DrawerButton text="Products" toggleDrawer={toggleDrawer} />
         <DrawerButton text="Pricing" toggleDrawer={toggleDrawer} />
         <DrawerButton text="FAQ" toggleDrawer={toggleDrawer} />
