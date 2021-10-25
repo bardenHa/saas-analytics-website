@@ -23,7 +23,7 @@ const NavBar = () => (
       </button>
       <CTAButton text={'Sign Up'} />
     </div>
-    <div className="px-1 rounded-md lg:hidden text-secondary-text hover:bg-outline">
+    <div className="px-1 rounded-md lg:hidden text-secondary-text hover:bg-outline active:bg-primary active:text-white">
       <MenuIcon fontSize="large" />
     </div>
   </header>
