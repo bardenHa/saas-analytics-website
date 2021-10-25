@@ -26,8 +26,8 @@ const NavBar = () => {
           About
         </button>
       </div>
-      <div className="pr-6 space-x-10 lg:pr-0">
-        <button className="hover:underline text-secondary-text md:text-chart">
+      <div className="pr-6 space-x-0 md:space-x-10 lg:pr-0">
+        <button className="hover:underline w-max text-secondary-text md:text-chart">
           Sign In
         </button>
         <CTAButton text={'Sign Up'} />
