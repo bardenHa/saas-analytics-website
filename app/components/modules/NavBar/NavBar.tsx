@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Logo from '/public/assets/logo/main.png';
 import CTAButton from '@element/CTAButton';
+import DrawerButton from '@element/DrawerButton';
 import MenuIcon from '@mui/icons-material/MenuRounded';
 import { SwipeableDrawer } from '@mui/material';
 import { useState } from 'react';
@@ -38,7 +39,7 @@ const NavBar = () => {
       >
         <MenuIcon fontSize="large" />
       </button>
-      <Drawer isOpen={isOpen} handleDrawerClick={handleDrawerClick} />
+      <Drawer isOpen={isOpen} toggleDrawer={handleDrawerClick} />
     </header>
   );
 };
@@ -47,21 +48,30 @@ export default NavBar;
 
 export const Drawer = ({
   isOpen,
-  handleDrawerClick,
+  toggleDrawer,
 }: {
   isOpen: boolean;
-  handleDrawerClick: () => void;
+  toggleDrawer: () => void;
 }) => {
   return (
-    <div>
-      <SwipeableDrawer
-        anchor="left"
-        open={isOpen}
-        onClose={handleDrawerClick}
-        onOpen={handleDrawerClick}
-      >
-        <div>Mole</div>
-      </SwipeableDrawer>
-    </div>
+    <SwipeableDrawer
+      anchor="left"
+      open={isOpen}
+      onClose={toggleDrawer}
+      onOpen={toggleDrawer}
+    >
+      <div className="flex flex-col w-screen h-full p-4 space-y-4 text-white bg-chart md:w-96">
+        <DrawerButton text="Products" toggleDrawer={toggleDrawer} />
+        <DrawerButton text="Pricing" toggleDrawer={toggleDrawer} />
+        <DrawerButton text="FAQ" toggleDrawer={toggleDrawer} />
+        <DrawerButton text="Blog" toggleDrawer={toggleDrawer} />
+        <DrawerButton text="About" toggleDrawer={toggleDrawer} />
+        <DrawerButton
+          text="Sign Up"
+          toggleDrawer={toggleDrawer}
+          color="primary"
+        />
+      </div>
+    </SwipeableDrawer>
   );
 };
