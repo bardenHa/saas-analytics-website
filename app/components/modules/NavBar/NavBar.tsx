@@ -14,9 +14,9 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="top-0 flex items-center w-full px-6 py-6 text-base md:py-12 text-chart md:px-0">
+    <header className="top-0 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0">
       <Link href="/">
-        <a>
+        <a className="flex items-center px-1">
           <Image src={Logo} alt="analytics logo" width={184} height={40} />
         </a>
       </Link>

@@ -31,6 +31,7 @@ module.exports = {
         'primary-text': '#172755',
         'secondary-text': '#8794BA',
         outline: '#465B95',
+        'base-hover': '#31416F',
       },
     },
   },

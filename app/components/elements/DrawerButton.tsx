@@ -12,8 +12,8 @@ const DrawerButton = ({ text, toggleDrawer, color = 'base' }: Props) => {
   return (
     <button
       onClick={handleClick}
-      className={`px-8 py-4 text-2xl rounded-lg bg-${color} hover:bg-${
-        color === 'base' ? 'secondary-text' : color
+      className={`px-8 py-4 text-2xl transition duration-150 ease-in-out transform hover:scale-105 rounded-lg bg-${color} hover:bg-${
+        color === 'base' ? 'base-hover' : color
       }
       }`}
     >
