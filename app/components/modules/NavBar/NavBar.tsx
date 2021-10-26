@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Logo from '/public/assets/logo/main.png';
 import CTAButton from '@element/CTAButton';
 import DrawerButton from '@element/DrawerButton';
 import MenuIcon from '@mui/icons-material/MenuRounded';
@@ -17,7 +16,12 @@ const NavBar = () => {
     <header className="top-0 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0">
       <Link href="/">
         <a className="flex items-center px-1">
-          <Image src={Logo} alt="analytics logo" width={184} height={40} />
+          <Image
+            src="/assets/logo/main.png"
+            alt="analytics logo"
+            width={184}
+            height={40}
+          />
         </a>
       </Link>
       <div className="flex-1 pl-20 space-x-10">
