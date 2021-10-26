@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="top-0 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0"
+        class="sticky top-0 z-20 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0"
       >
         <a
-          class="flex items-center px-1"
+          class="flex items-center px-1 lg:px-0"
           href="/"
         >
           <div
@@ -38,37 +38,42 @@ Object {
         <div
           class="flex-1 pl-20 space-x-10"
         >
-          <button
-            class="hidden hover:underline lg:inline-block"
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
           >
             Products
-          </button>
-          <button
-            class="hidden hover:underline lg:inline-block hover-underline-animation"
+          </a>
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
           >
             Pricing
-          </button>
-          <button
-            class="hidden hover:underline lg:inline-block"
+          </a>
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
           >
             FAQ
-          </button>
-          <button
-            class="hidden hover:underline lg:inline-block"
+          </a>
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
           >
             Blog
-          </button>
-          <button
-            class="hidden hover:underline lg:inline-block"
+          </a>
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
           >
             About
-          </button>
+          </a>
         </div>
         <div
           class="pr-6 space-x-0 md:space-x-10 lg:pr-0"
         >
           <button
-            class="hover:underline w-max text-secondary-text md:text-chart"
+            class="hover:text-secondary w-max text-secondary-text md:text-chart"
           >
             Sign In
           </button>
@@ -102,10 +107,10 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="top-0 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0"
+      class="sticky top-0 z-20 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0"
     >
       <a
-        class="flex items-center px-1"
+        class="flex items-center px-1 lg:px-0"
         href="/"
       >
         <div
@@ -134,37 +139,42 @@ Object {
       <div
         class="flex-1 pl-20 space-x-10"
       >
-        <button
-          class="hidden hover:underline lg:inline-block"
+        <a
+          class="hidden hover:text-secondary lg:inline-block"
+          href="#"
         >
           Products
-        </button>
-        <button
-          class="hidden hover:underline lg:inline-block hover-underline-animation"
+        </a>
+        <a
+          class="hidden hover:text-secondary lg:inline-block"
+          href="#"
         >
           Pricing
-        </button>
-        <button
-          class="hidden hover:underline lg:inline-block"
+        </a>
+        <a
+          class="hidden hover:text-secondary lg:inline-block"
+          href="#"
         >
           FAQ
-        </button>
-        <button
-          class="hidden hover:underline lg:inline-block"
+        </a>
+        <a
+          class="hidden hover:text-secondary lg:inline-block"
+          href="#"
         >
           Blog
-        </button>
-        <button
-          class="hidden hover:underline lg:inline-block"
+        </a>
+        <a
+          class="hidden hover:text-secondary lg:inline-block"
+          href="#"
         >
           About
-        </button>
+        </a>
       </div>
       <div
         class="pr-6 space-x-0 md:space-x-10 lg:pr-0"
       >
         <button
-          class="hover:underline w-max text-secondary-text md:text-chart"
+          class="hover:text-secondary w-max text-secondary-text md:text-chart"
         >
           Sign In
         </button>
