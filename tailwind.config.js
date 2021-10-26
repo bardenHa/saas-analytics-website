@@ -26,7 +26,7 @@ module.exports = {
       colors: {
         primary: '#EF2A82',
         secondary: '#0088F0',
-        base: '#172755',
+        'base-color': '#172755',
         chart: '#EEEEF6',
         'primary-text': '#172755',
         'secondary-text': '#8794BA',
