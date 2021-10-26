@@ -13,9 +13,9 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="top-0 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0">
+    <header className="sticky top-0 z-20 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0">
       <Link href="/">
-        <a className="flex items-center px-1">
+        <a className="flex items-center px-1 lg:px-0">
           <Image
             src="/assets/logo/main.png"
             alt="analytics logo"
@@ -25,20 +25,24 @@ const NavBar = () => {
         </a>
       </Link>
       <div className="flex-1 pl-20 space-x-10">
-        <button className="hidden hover:underline lg:inline-block">
+        <a href="#" className="hidden hover:text-secondary lg:inline-block">
           Products
-        </button>
-        <button className="hidden hover:underline lg:inline-block hover-underline-animation">
+        </a>
+        <a href="#" className="hidden hover:text-secondary lg:inline-block">
           Pricing
-        </button>
-        <button className="hidden hover:underline lg:inline-block">FAQ</button>
-        <button className="hidden hover:underline lg:inline-block">Blog</button>
-        <button className="hidden hover:underline lg:inline-block">
+        </a>
+        <a href="#" className="hidden hover:text-secondary lg:inline-block">
+          FAQ
+        </a>
+        <a href="#" className="hidden hover:text-secondary lg:inline-block">
+          Blog
+        </a>
+        <a href="#" className="hidden hover:text-secondary lg:inline-block">
           About
-        </button>
+        </a>
       </div>
       <div className="pr-6 space-x-0 md:space-x-10 lg:pr-0">
-        <button className="hover:underline w-max text-secondary-text md:text-chart">
+        <button className="hover:text-secondary w-max text-secondary-text md:text-chart">
           Sign In
         </button>
         <CTAButton text={'Sign Up'} />
