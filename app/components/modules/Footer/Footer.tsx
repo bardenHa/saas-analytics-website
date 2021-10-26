@@ -1,7 +1,12 @@
 const Footer = () => {
   return (
-    <footer className="bottom-0 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0">
-      <div className="bg-green-500">footer</div>
+    <footer className="bottom-0 px-4 text-base md:px-0 text-secondary-text">
+      <div className="border-t border-divider-color"></div>
+      <div className="flex items-center justify-between w-full mt-6 md:mt-12">
+        <div className="">footer</div>
+        <div>links</div>
+        <div>socials</div>
+      </div>
     </footer>
   );
 };

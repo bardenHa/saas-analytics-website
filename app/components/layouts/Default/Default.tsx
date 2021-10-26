@@ -7,7 +7,7 @@ type Props = {
 
 const Default = ({ children }: Props) => (
   <main className="bg-base-color">
-    <div className="container mx-auto">
+    <div className="container pb-6 mx-auto md:pb-12">
       <NavBar />
       {children}
       <Footer />
