@@ -11,7 +11,20 @@ const Footer = () => {
           height={30}
           alt="analytics alternative logo"
         />
-        <div>links</div>
+        <div className="hidden space-x-8 md:inline-block">
+          <a href="#" className="hover:text-secondary">
+            Product
+          </a>
+          <a href="#" className="hover:text-secondary">
+            Pricing Plans
+          </a>
+          <a href="#" className="hover:text-secondary">
+            FAQ
+          </a>
+          <a href="#" className="hover:text-secondary">
+            Blog
+          </a>
+        </div>
         <div>socials</div>
       </div>
     </footer>
