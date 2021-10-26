@@ -30,11 +30,17 @@ module.exports = {
         chart: '#EEEEF6',
         'primary-text': '#172755',
         'secondary-text': '#8794BA',
+        outline: '#465B95',
+        'base-hover': '#31416F',
+        'primary-hover': '#D61169',
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['active'],
+      textColor: ['active'],
+    },
   },
   plugins: [],
 };
