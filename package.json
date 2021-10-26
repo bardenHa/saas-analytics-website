@@ -12,6 +12,7 @@
     "type-check": "tsc --pretty --noEmit",
     "prettier-check": "prettier --check .",
     "prettier": "prettier --write .",
+    "test": "jest",
     "test-unit": "jest --passWithNoTests",
     "test-unit-update": "jest --passWithNoTests --updateSnapshot"
   },
@@ -25,6 +26,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "@next/eslint-plugin-next": "^11.1.2",
     "@testing-library/dom": "^8.10.1",
     "@testing-library/jest-dom": "^5.14.1",

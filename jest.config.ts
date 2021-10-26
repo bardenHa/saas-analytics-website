@@ -10,7 +10,8 @@ export default {
   },
   moduleNameMapper: {
     '^.+\\.(css|less|scss)$': 'identity-obj-proxy',
-    '@element/(.*)/(.*)$': '<rootDir>/app/components/elements/$1/$2',
+    '@/(.*)': '<rootDir>/app/$1',
+    '@element/(.*)': '<rootDir>/app/components/elements/$1',
     '@layout/(.*)/(.*)$': '<rootDir>/app/components/layouts/$1/$2',
     '@module/(.*)/(.*)$': '<rootDir>/app/components/modules/$1/$2',
     '@template/(.*)/(.*)$': '<rootDir>/app/components/templates/$1/$2',
