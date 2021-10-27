@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Module LandingHero should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative flex flex-col-reverse items-center justify-between px-4 text-base md:flex-row flex-nowrap md:px-0 text-secondary-text"
+      >
+        <div
+          class="flex-shrink-0 pb-12 md:max-w-lg md:mr-28"
+        >
+          <h1
+            class="text-3xl font-bold text-white md:text-5xl"
+          >
+            Monitor your business on real-time dashboard
+          </h1>
+          <p
+            class="mt-4 text-sm md:text-lg"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
+             
+          </p>
+          <button
+            class="w-full p-2 px-12 mt-12 text-white rounded-full md:w-auto bg-primary active:bg-primary-hover"
+          >
+            Try for free
+          </button>
+        </div>
+        <div
+          class="relative flex-shrink hidden md:inline-flex "
+        >
+          <div
+            style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 804px; height: 555px;"
+          >
+            <img
+              data-nimg="fixed"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </div>
+          <div
+            class="absolute z-10 hidden md:block -left-12 top-28"
+          >
+            <div
+              style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 361px; height: 247px;"
+            >
+              <img
+                data-nimg="fixed"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+              <noscript />
+            </div>
+          </div>
+        </div>
+        <div
+          class="width-full md:hidden"
+        >
+          <div
+            style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 335px; height: 231px;"
+          >
+            <img
+              data-nimg="fixed"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative flex flex-col-reverse items-center justify-between px-4 text-base md:flex-row flex-nowrap md:px-0 text-secondary-text"
+    >
+      <div
+        class="flex-shrink-0 pb-12 md:max-w-lg md:mr-28"
+      >
+        <h1
+          class="text-3xl font-bold text-white md:text-5xl"
+        >
+          Monitor your business on real-time dashboard
+        </h1>
+        <p
+          class="mt-4 text-sm md:text-lg"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
+           
+        </p>
+        <button
+          class="w-full p-2 px-12 mt-12 text-white rounded-full md:w-auto bg-primary active:bg-primary-hover"
+        >
+          Try for free
+        </button>
+      </div>
+      <div
+        class="relative flex-shrink hidden md:inline-flex "
+      >
+        <div
+          style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 804px; height: 555px;"
+        >
+          <img
+            data-nimg="fixed"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+          <noscript />
+        </div>
+        <div
+          class="absolute z-10 hidden md:block -left-12 top-28"
+        >
+          <div
+            style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 361px; height: 247px;"
+          >
+            <img
+              data-nimg="fixed"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </div>
+        </div>
+      </div>
+      <div
+        class="width-full md:hidden"
+      >
+        <div
+          style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 335px; height: 231px;"
+        >
+          <img
+            data-nimg="fixed"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+          <noscript />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
