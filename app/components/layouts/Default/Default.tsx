@@ -6,7 +6,7 @@ type Props = {
 };
 
 const Default = ({ children }: Props) => (
-  <main className="overflow-x-hidden bg-base-color">
+  <main className="h-screen overflow-x-hidden bg-base-color">
     <div className="container pb-6 mx-auto md:pb-12">
       <NavBar />
       {children}
