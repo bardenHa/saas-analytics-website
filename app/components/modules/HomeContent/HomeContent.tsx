@@ -7,6 +7,9 @@ const HomeContent = () => {
       <div className="py-3 md:py-6 bg-chart bleed-width">
         <div className="container flex flex-col items-center justify-center mx-auto text-primary-text">
           <MainFeatures />
+          <div className="w-full px-4 py-3 space-y-10 md:px-0 md:py-28">
+            <ScreenHero />
+          </div>
         </div>
       </div>
     </>
@@ -73,6 +76,32 @@ const SlantedDiv = () => {
   return (
     <div className="h-16 pt-4 md:h-32 skewed-full md:skewed-full bg-primary drop-shadow-xl bleed-width">
       <div className="h-16 shadow-inner md:h-32 skewed-full md:skewed-full bg-chart bleed-width"></div>
+    </div>
+  );
+};
+
+const ScreenHero = () => {
+  return (
+    <div className="flex items-center w-full space-x-10">
+      <div className="w-1/2">
+        <h2 className="max-w-lg text-3xl font-bold md:text-5xl">
+          Automated Reports & Widget Alerts
+        </h2>
+        <p className="max-w-lg pt-6 text-sm text-secondary-text md:text-lg md:pt-12">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+          nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
+          nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
+          pulvinar sit amet.
+        </p>
+      </div>
+      <div className="flex-grow w-1/2 shadow-xl rounded-3xl">
+        <Image
+          src="/assets/screens/content-screen-01.png"
+          layout="responsive"
+          width={600}
+          height={410}
+        />
+      </div>
     </div>
   );
 };
