@@ -7,7 +7,7 @@ const HomeContent = () => {
       <div className="py-3 md:py-6 bg-chart bleed-width">
         <div className="container flex flex-col items-center justify-center mx-auto text-primary-text">
           <MainFeatures />
-          <div className="w-full px-4 py-3 space-y-10 md:px-0 md:py-28">
+          <div className="w-full px-4 py-12 space-y-10 md:px-0 md:py-28">
             <ScreenHero />
           </div>
         </div>
@@ -82,19 +82,19 @@ const SlantedDiv = () => {
 
 const ScreenHero = () => {
   return (
-    <div className="flex items-center w-full space-x-10">
-      <div className="w-1/2">
-        <h2 className="max-w-lg text-3xl font-bold md:text-5xl">
+    <div className="flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 md:flex-row">
+      <div className="md:w-1/2">
+        <h2 className="max-w-lg text-3xl font-bold lg:text-5xl">
           Automated Reports & Widget Alerts
         </h2>
-        <p className="max-w-lg pt-6 text-sm text-secondary-text md:text-lg md:pt-12">
+        <p className="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
           nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
           nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
           pulvinar sit amet.
         </p>
       </div>
-      <div className="flex-grow w-1/2 shadow-xl rounded-3xl">
+      <div className="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-3xl">
         <Image
           src="/assets/screens/content-screen-01.png"
           layout="responsive"
