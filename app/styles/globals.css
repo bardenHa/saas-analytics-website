@@ -24,3 +24,19 @@ html {
   margin-left: -50vw;
   margin-right: -50vw;
 }
+
+@layer utilities {
+  @variants responsive {
+    .skewed-none {
+      clip-path: none;
+    }
+
+    .skewed-half {
+      clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .skewed-full {
+      clip-path: polygon(0 65%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  }
+}

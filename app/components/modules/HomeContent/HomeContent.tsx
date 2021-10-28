@@ -2,11 +2,21 @@ import Image from 'next/image';
 
 const HomeContent = () => {
   return (
-    <div className="py-6 bg-chart bleed-width">
-      <div className="container flex flex-col items-center justify-center mx-auto text-primary-text">
-        <MainFeatures />
+    // <div className="py-3 transform -skew-y-6 bg-primary bleed-width">
+    //   <div className="py-16 shadow-inner bg-chart bleed-width">
+    <>
+      <div className="h-32 pt-4 skewed-half md:skewed-full bg-primary bleed-width">
+        <div className="h-32 skewed-half md:skewed-full bg-chart bleed-width"></div>
       </div>
-    </div>
+      <div className="py-6 bg-chart bleed-width">
+        {/* <div className="h-32 transform -skew-y-12 bg-red-600">g</div> */}
+        <div className="container flex flex-col items-center justify-center mx-auto text-primary-text">
+          <MainFeatures />
+        </div>
+        {/* </div>
+        </div> */}
+      </div>
+    </>
   );
 };
 
