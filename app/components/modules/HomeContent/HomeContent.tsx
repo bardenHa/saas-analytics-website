@@ -7,7 +7,7 @@ const HomeContent = () => {
       <div className="py-3 md:py-6 bg-chart bleed-width">
         <div className="container flex flex-col items-center justify-center mx-auto text-primary-text">
           <MainFeatures />
-          <div className="w-full px-4 py-12 space-y-10 md:px-0 md:py-28">
+          <div className="w-full px-4 py-12 space-y-24 lg:space-y-32 md:px-0 md:py-28">
             <ScreenHero
               title="Automated Reports & Widget Alerts"
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
@@ -121,11 +121,17 @@ const ScreenHero = ({
         reversed ? 'md:space-x-reverse md:flex-row-reverse' : 'md:flex-row'
       }`}
     >
-      <div className="md:w-1/2">
-        <h2 className="max-w-lg text-3xl font-bold lg:text-5xl">{title}</h2>
-        <p className="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12">
-          {paragraph}
-        </p>
+      <div
+        className={`md:flex ${
+          reversed ? 'md:justify-end' : 'md:justify-start'
+        } md:w-1/2`}
+      >
+        <div className="max-w-lg">
+          <h2 className="text-3xl font-bold lg:text-5xl">{title}</h2>
+          <p className="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12">
+            {paragraph}
+          </p>
+        </div>
       </div>
       <div className="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-3xl">
         <Image src={imageUrl} layout="responsive" width={600} height={410} />
