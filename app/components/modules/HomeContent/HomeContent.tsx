@@ -8,7 +8,31 @@ const HomeContent = () => {
         <div className="container flex flex-col items-center justify-center mx-auto text-primary-text">
           <MainFeatures />
           <div className="w-full px-4 py-12 space-y-10 md:px-0 md:py-28">
-            <ScreenHero />
+            <ScreenHero
+              title="Automated Reports & Widget Alerts"
+              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+          nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
+          nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
+          pulvinar sit amet."
+              imageUrl="/assets/screens/content-screen-01.png"
+            />
+            <ScreenHero
+              title="Fully customizable to address your needs"
+              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+          nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
+          nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
+          pulvinar sit amet."
+              imageUrl="/assets/screens/content-screen-02.png"
+              reversed={true}
+            />
+            <ScreenHero
+              title="Pre-built Dashboard Templates"
+              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+          nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
+          nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
+          pulvinar sit amet."
+              imageUrl="/assets/screens/content-screen-03.png"
+            />
           </div>
         </div>
       </div>
@@ -80,27 +104,31 @@ const SlantedDiv = () => {
   );
 };
 
-const ScreenHero = () => {
+const ScreenHero = ({
+  title,
+  paragraph,
+  imageUrl,
+  reversed = false,
+}: {
+  title: string;
+  paragraph: string;
+  imageUrl: string;
+  reversed?: boolean;
+}) => {
   return (
-    <div className="flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 md:flex-row">
+    <div
+      className={`flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 ${
+        reversed ? 'md:space-x-reverse md:flex-row-reverse' : 'md:flex-row'
+      }`}
+    >
       <div className="md:w-1/2">
-        <h2 className="max-w-lg text-3xl font-bold lg:text-5xl">
-          Automated Reports & Widget Alerts
-        </h2>
+        <h2 className="max-w-lg text-3xl font-bold lg:text-5xl">{title}</h2>
         <p className="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
-          nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
-          nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
-          pulvinar sit amet.
+          {paragraph}
         </p>
       </div>
       <div className="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-3xl">
-        <Image
-          src="/assets/screens/content-screen-01.png"
-          layout="responsive"
-          width={600}
-          height={410}
-        />
+        <Image src={imageUrl} layout="responsive" width={600} height={410} />
       </div>
     </div>
   );
