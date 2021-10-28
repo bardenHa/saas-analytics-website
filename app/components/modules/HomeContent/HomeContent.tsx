@@ -71,8 +71,8 @@ const MainFeatures = () => {
 
 const SlantedDiv = () => {
   return (
-    <div className="h-16 pt-4 md:h-32 skewed-full md:skewed-full bg-primary bleed-width">
-      <div className="h-16 md:h-32 skewed-full md:skewed-full bg-chart bleed-width"></div>
+    <div className="h-16 pt-4 md:h-32 skewed-full md:skewed-full bg-primary drop-shadow-xl bleed-width">
+      <div className="h-16 shadow-inner md:h-32 skewed-full md:skewed-full bg-chart bleed-width"></div>
     </div>
   );
 };
