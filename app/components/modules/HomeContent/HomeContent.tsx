@@ -133,7 +133,7 @@ const ScreenHero = ({
           </p>
         </div>
       </div>
-      <div className="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-3xl">
+      <div className="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-image">
         <Image src={imageUrl} layout="responsive" width={600} height={410} />
       </div>
     </div>
