@@ -39,6 +39,14 @@ html {
       clip-path: polygon(0 65%, 100% 0%, 100% 100%, 0% 100%);
     }
 
+    .skewed-half-reverse {
+      clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+    }
+
+    .skewed-full-reverse {
+      clip-path: polygon(0 0, 100% 0, 100% 35%, 0% 100%);
+    }
+
     .inner-shadow-custom {
       -moz-box-shadow: inset 0 0 10px #000000;
       -webkit-box-shadow: inset 0 0 10px #000000;
