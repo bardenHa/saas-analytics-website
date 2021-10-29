@@ -8,7 +8,7 @@ const PricingHero = () => {
           nisi aliquet volutpat pellentesque volutpat est.
         </p>
       </div>
-      <div className="flex space-x-20 justify-evenly">
+      <div className="flex flex-col space-y-20 lg:space-y-0 lg:space-x-20 lg:flex-row justify-evenly flex-nowrap">
         <PlanCard
           title="Starter"
           excerpt="up to 3 users"

@@ -112,7 +112,6 @@ const SlantedDivReverse = () => {
       <div className="h-16 bottom-2 md:h-32 skewed-full-reverse bg-primary drop-shadow-xl bleed-width">
         <div className="h-16 bottom-4 md:h-32 skewed-full-reverse bg-chart bleed-width"></div>
       </div>
-      {/* <div className="relative top-0 h-16 md:h-32 skewed-full-reverse bg-chart bleed-width"></div> */}
     </>
   );
 };
