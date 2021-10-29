@@ -34,6 +34,7 @@ module.exports = {
         'base-hover': '#31416F',
         'primary-hover': '#D61169',
         'divider-color': '#2A407C',
+        'divider-color-light': '#D3D9E9',
         'dark-card': '#0F1F4B',
       },
     },
