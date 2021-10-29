@@ -4,10 +4,10 @@ const HomeContent = () => {
   return (
     <>
       <SlantedDiv />
-      <div className="py-3 md:py-6 bg-chart bleed-width">
+      <div className="pt-12 pb-24 md:pb-12 bg-chart bleed-width">
         <div className="container flex flex-col items-center justify-center mx-auto text-primary-text">
           <MainFeatures />
-          <div className="w-full px-4 py-12 space-y-24 lg:space-y-32 md:px-0 md:py-28">
+          <div className="w-full px-4 pt-12 space-y-24 lg:space-y-32 md:px-0 md:pt-28">
             <ScreenHero
               title="Automated Reports & Widget Alerts"
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
@@ -45,7 +45,7 @@ export default HomeContent;
 
 const MainFeatures = () => {
   return (
-    <div className="px-4 md:px-0">
+    <div className="px-4 md:px-0 max-w-7xl">
       <div className="md:text-center">
         <h2 className="text-3xl font-bold md:text-5xl">Main Features</h2>
         <p className="pt-6 text-sm text-secondary-text md:text-lg md:pt-12">
