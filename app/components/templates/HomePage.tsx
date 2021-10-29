@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import LandingHero from '@module/LandingHero/LandingHero';
 import HomeContent from '@module/HomeContent/HomeContent';
+import PricingHero from '@module/PricingHero/PricingHero';
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <LandingHero />
       <HomeContent />
+      <PricingHero />
       <div className="h-screen">
         <h1 className="p-4 text-4xl font-bold text-center text-white lg:text-7xl">
           Site under construction 🚧
