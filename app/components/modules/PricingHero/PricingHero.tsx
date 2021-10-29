@@ -1,6 +1,6 @@
 const PricingHero = () => {
   return (
-    <div className="flex flex-col items-center justify-between px-4 py-12 space-y-16 text-white md:py-16 md:px-0 ">
+    <div className="flex flex-col items-center justify-between px-4 py-12 space-y-16 text-white lg:pb-24 md:py-16 md:px-0 ">
       <div className="max-w-xl md:text-center">
         <h2 className="text-3xl font-bold md:text-5xl">Pricing Plans</h2>
         <p className="pt-6 text-sm text-secondary-text md:text-lg md:pt-6">

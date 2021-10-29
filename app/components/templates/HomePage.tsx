@@ -15,11 +15,6 @@ const Home: NextPage = () => {
       <LandingHero />
       <HomeContent />
       <PricingHero />
-      <div className="h-screen">
-        <h1 className="p-4 text-4xl font-bold text-center text-white lg:text-7xl">
-          Site under construction 🚧
-        </h1>
-      </div>
     </>
   );
 };
