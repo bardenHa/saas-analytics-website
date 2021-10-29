@@ -13,46 +13,48 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="sticky top-0 z-20 flex items-center w-full px-4 py-6 text-base md:py-12 text-chart md:px-0">
-      <Link href="/">
-        <a className="flex items-center px-1 lg:px-0">
-          <Image
-            src="/assets/logo/main.png"
-            alt="analytics logo"
-            width={184}
-            height={40}
-          />
-        </a>
-      </Link>
-      <div className="flex-1 pl-20 space-x-10">
-        <a href="#" className="hidden hover:text-secondary lg:inline-block">
-          Products
-        </a>
-        <a href="#" className="hidden hover:text-secondary lg:inline-block">
-          Pricing
-        </a>
-        <a href="#" className="hidden hover:text-secondary lg:inline-block">
-          FAQ
-        </a>
-        <a href="#" className="hidden hover:text-secondary lg:inline-block">
-          Blog
-        </a>
-        <a href="#" className="hidden hover:text-secondary lg:inline-block">
-          About
-        </a>
-      </div>
-      <div className="pr-6 space-x-0 md:space-x-10 lg:pr-0">
-        <button className="hover:text-secondary w-max text-secondary-text md:text-chart">
-          Sign In
+    <header className="sticky top-0 z-20 w-full border-b border-solid shadow-xl bg-base-color border-dark-card">
+      <div className="container flex items-center w-full px-4 py-6 mx-auto text-base md:py-12 text-chart md:px-0">
+        <Link href="/">
+          <a className="flex items-center px-1 lg:px-0">
+            <Image
+              src="/assets/logo/main.png"
+              alt="analytics logo"
+              width={184}
+              height={40}
+            />
+          </a>
+        </Link>
+        <div className="flex-1 pl-20 space-x-10">
+          <a href="#" className="hidden hover:text-secondary lg:inline-block">
+            Products
+          </a>
+          <a href="#" className="hidden hover:text-secondary lg:inline-block">
+            Pricing
+          </a>
+          <a href="#" className="hidden hover:text-secondary lg:inline-block">
+            FAQ
+          </a>
+          <a href="#" className="hidden hover:text-secondary lg:inline-block">
+            Blog
+          </a>
+          <a href="#" className="hidden hover:text-secondary lg:inline-block">
+            About
+          </a>
+        </div>
+        <div className="pr-6 space-x-0 md:space-x-10 lg:pr-0">
+          <button className="hover:text-secondary w-max text-secondary-text md:text-chart">
+            Sign In
+          </button>
+          <CTAButton text={'Sign Up'} />
+        </div>
+        <button
+          onClick={handleDrawerClick}
+          className="px-1 rounded-md lg:hidden text-secondary-text md:hover:bg-outline active:bg-primary active:text-white"
+        >
+          <MenuIcon fontSize="large" />
         </button>
-        <CTAButton text={'Sign Up'} />
       </div>
-      <button
-        onClick={handleDrawerClick}
-        className="px-1 rounded-md lg:hidden text-secondary-text md:hover:bg-outline active:bg-primary active:text-white"
-      >
-        <MenuIcon fontSize="large" />
-      </button>
       <Drawer isOpen={isOpen} toggleDrawer={handleDrawerClick} />
     </header>
   );

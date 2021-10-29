@@ -7,8 +7,8 @@ type Props = {
 
 const Default = ({ children }: Props) => (
   <main className="h-screen overflow-x-hidden bg-base-color">
-    <div className="container pb-6 mx-auto md:pb-12">
-      <NavBar />
+    <NavBar />
+    <div className="container py-6 mx-auto md:pb-12">
       {children}
       <Footer />
     </div>
