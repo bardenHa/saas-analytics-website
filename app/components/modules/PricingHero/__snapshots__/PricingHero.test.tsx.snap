@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Module PricingHero should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col items-center justify-between px-4 py-12 space-y-16 text-white lg:pb-24 md:py-16 md:px-0 "
+      >
+        <div
+          class="max-w-xl md:text-center"
+        >
+          <h2
+            class="text-3xl font-bold md:text-5xl"
+          >
+            Pricing Plans
+          </h2>
+          <p
+            class="pt-6 text-sm text-secondary-text md:text-lg md:pt-6"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est.
+          </p>
+        </div>
+        <div
+          class="flex flex-col space-y-20 lg:space-y-0 lg:space-x-20 lg:flex-row justify-evenly flex-nowrap"
+        >
+          <div
+            class="flex flex-col p-12 text-center shadow-lg w-80 bg-dark-card rounded-3xl"
+          >
+            <h3
+              class="text-3xl font-bold"
+            >
+              Starter
+            </h3>
+            <p
+              class="pt-2 pb-10 text-lg text-secondary-text"
+            >
+              up to 3 users
+            </p>
+            <hr
+              class="border-divider-color"
+            />
+            <h4
+              class="pt-10 text-6xl font-bold"
+            >
+              <span
+                class="text-3xl tracking-wide"
+              >
+                £
+              </span>
+              29
+            </h4>
+            <p
+              class="pt-2 text-secondary-text"
+            >
+              per month
+            </p>
+            <button
+              class="py-3 mt-10 mb-2 transition duration-150 ease-in-out transform border border-solid rounded-full hover:scale-105 hover:border-opacity-0 active:bg-primary-hover hover:bg-primary border-divider-color"
+            >
+              Order
+            </button>
+          </div>
+          <div
+            class="flex flex-col p-12 text-center bg-white shadow-lg w-80 rounded-3xl"
+          >
+            <h3
+              class="text-3xl font-bold text-primary-text"
+            >
+              Standard
+            </h3>
+            <p
+              class="pt-2 pb-10 text-lg text-secondary-text"
+            >
+              up to 20 users
+            </p>
+            <hr
+              class="border-divider-color-light"
+            />
+            <h4
+              class="pt-10 text-6xl font-bold text-primary-text"
+            >
+              <span
+                class="text-3xl tracking-wide"
+              >
+                £
+              </span>
+              99
+            </h4>
+            <p
+              class="pt-2 text-secondary-text"
+            >
+              per month
+            </p>
+            <button
+              class="py-3 mt-10 mb-2 transition duration-150 ease-in-out transform border border-opacity-0 border-solid rounded-full active:bg-primary-hover bg-primary border-divider-color hover:scale-105"
+            >
+              Order
+            </button>
+          </div>
+          <div
+            class="flex flex-col p-12 text-center shadow-lg w-80 bg-dark-card rounded-3xl"
+          >
+            <h3
+              class="text-3xl font-bold"
+            >
+              Premium
+            </h3>
+            <p
+              class="pt-2 pb-10 text-lg text-secondary-text"
+            >
+              up to 200 users
+            </p>
+            <hr
+              class="border-divider-color"
+            />
+            <h4
+              class="pt-10 text-6xl font-bold"
+            >
+              <span
+                class="text-3xl tracking-wide"
+              >
+                £
+              </span>
+              299
+            </h4>
+            <p
+              class="pt-2 text-secondary-text"
+            >
+              per month
+            </p>
+            <button
+              class="py-3 mt-10 mb-2 transition duration-150 ease-in-out transform border border-solid rounded-full hover:scale-105 hover:border-opacity-0 active:bg-primary-hover hover:bg-primary border-divider-color"
+            >
+              Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col items-center justify-between px-4 py-12 space-y-16 text-white lg:pb-24 md:py-16 md:px-0 "
+    >
+      <div
+        class="max-w-xl md:text-center"
+      >
+        <h2
+          class="text-3xl font-bold md:text-5xl"
+        >
+          Pricing Plans
+        </h2>
+        <p
+          class="pt-6 text-sm text-secondary-text md:text-lg md:pt-6"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est.
+        </p>
+      </div>
+      <div
+        class="flex flex-col space-y-20 lg:space-y-0 lg:space-x-20 lg:flex-row justify-evenly flex-nowrap"
+      >
+        <div
+          class="flex flex-col p-12 text-center shadow-lg w-80 bg-dark-card rounded-3xl"
+        >
+          <h3
+            class="text-3xl font-bold"
+          >
+            Starter
+          </h3>
+          <p
+            class="pt-2 pb-10 text-lg text-secondary-text"
+          >
+            up to 3 users
+          </p>
+          <hr
+            class="border-divider-color"
+          />
+          <h4
+            class="pt-10 text-6xl font-bold"
+          >
+            <span
+              class="text-3xl tracking-wide"
+            >
+              £
+            </span>
+            29
+          </h4>
+          <p
+            class="pt-2 text-secondary-text"
+          >
+            per month
+          </p>
+          <button
+            class="py-3 mt-10 mb-2 transition duration-150 ease-in-out transform border border-solid rounded-full hover:scale-105 hover:border-opacity-0 active:bg-primary-hover hover:bg-primary border-divider-color"
+          >
+            Order
+          </button>
+        </div>
+        <div
+          class="flex flex-col p-12 text-center bg-white shadow-lg w-80 rounded-3xl"
+        >
+          <h3
+            class="text-3xl font-bold text-primary-text"
+          >
+            Standard
+          </h3>
+          <p
+            class="pt-2 pb-10 text-lg text-secondary-text"
+          >
+            up to 20 users
+          </p>
+          <hr
+            class="border-divider-color-light"
+          />
+          <h4
+            class="pt-10 text-6xl font-bold text-primary-text"
+          >
+            <span
+              class="text-3xl tracking-wide"
+            >
+              £
+            </span>
+            99
+          </h4>
+          <p
+            class="pt-2 text-secondary-text"
+          >
+            per month
+          </p>
+          <button
+            class="py-3 mt-10 mb-2 transition duration-150 ease-in-out transform border border-opacity-0 border-solid rounded-full active:bg-primary-hover bg-primary border-divider-color hover:scale-105"
+          >
+            Order
+          </button>
+        </div>
+        <div
+          class="flex flex-col p-12 text-center shadow-lg w-80 bg-dark-card rounded-3xl"
+        >
+          <h3
+            class="text-3xl font-bold"
+          >
+            Premium
+          </h3>
+          <p
+            class="pt-2 pb-10 text-lg text-secondary-text"
+          >
+            up to 200 users
+          </p>
+          <hr
+            class="border-divider-color"
+          />
+          <h4
+            class="pt-10 text-6xl font-bold"
+          >
+            <span
+              class="text-3xl tracking-wide"
+            >
+              £
+            </span>
+            299
+          </h4>
+          <p
+            class="pt-2 text-secondary-text"
+          >
+            per month
+          </p>
+          <button
+            class="py-3 mt-10 mb-2 transition duration-150 ease-in-out transform border border-solid rounded-full hover:scale-105 hover:border-opacity-0 active:bg-primary-hover hover:bg-primary border-divider-color"
+          >
+            Order
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
