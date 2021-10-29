@@ -1,20 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bleed-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+@layer utilities {
+  @variants responsive {
+    .skewed-none {
+      clip-path: none;
+    }
+
+    .skewed-half {
+      clip-path: polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .skewed-full {
+      clip-path: polygon(0 65%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .skewed-half-reverse {
+      clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+    }
+
+    .skewed-full-reverse {
+      clip-path: polygon(0 0, 100% 0, 100% 35%, 0% 100%);
+    }
+
+    .inner-shadow-custom {
+      -moz-box-shadow: inset 0 0 10px #000000;
+      -webkit-box-shadow: inset 0 0 10px #000000;
+      box-shadow: inset 0 0 10px #000000;
+    }
+
+    .rounded-image {
+      border-radius: 3rem;
+    }
+  }
 }

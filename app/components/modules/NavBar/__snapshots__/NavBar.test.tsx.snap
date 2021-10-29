@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Module NavBar should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="sticky top-0 z-20 w-full border-b border-solid shadow-xl bg-base-color border-dark-card"
+      >
+        <div
+          class="container flex items-center w-full px-4 py-6 mx-auto text-base md:py-12 text-chart md:px-0"
+        >
+          <a
+            class="flex items-center px-1 lg:px-0"
+            href="/"
+          >
+            <div
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+            >
+              <div
+                style="box-sizing: border-box; display: block; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTg0IiBoZWlnaHQ9IjQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+                  style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                />
+              </div>
+              <img
+                alt="analytics logo"
+                data-nimg="intrinsic"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+              <noscript />
+            </div>
+          </a>
+          <div
+            class="flex-1 pl-20 space-x-10"
+          >
+            <a
+              class="hidden hover:text-secondary lg:inline-block"
+              href="#"
+            >
+              Products
+            </a>
+            <a
+              class="hidden hover:text-secondary lg:inline-block"
+              href="#"
+            >
+              Pricing
+            </a>
+            <a
+              class="hidden hover:text-secondary lg:inline-block"
+              href="#"
+            >
+              FAQ
+            </a>
+            <a
+              class="hidden hover:text-secondary lg:inline-block"
+              href="#"
+            >
+              Blog
+            </a>
+            <a
+              class="hidden hover:text-secondary lg:inline-block"
+              href="#"
+            >
+              About
+            </a>
+          </div>
+          <div
+            class="pr-6 space-x-0 md:space-x-10 lg:pr-0"
+          >
+            <button
+              class="hover:text-secondary w-max text-secondary-text md:text-chart"
+            >
+              Sign In
+            </button>
+            <button
+              class="hidden p-2 px-12 border border-solid rounded-full border-outline md:inline-block hover:bg-primary hover:border-opacity-0 active:bg-primary-hover"
+            >
+              Sign Up
+            </button>
+          </div>
+          <button
+            class="px-1 rounded-md lg:hidden text-secondary-text md:hover:bg-outline active:bg-primary active:text-white"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+              data-testid="MenuRoundedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="PrivateSwipeArea-root css-n2n0ek"
+          style="width: 20px;"
+        />
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="sticky top-0 z-20 w-full border-b border-solid shadow-xl bg-base-color border-dark-card"
+    >
+      <div
+        class="container flex items-center w-full px-4 py-6 mx-auto text-base md:py-12 text-chart md:px-0"
+      >
+        <a
+          class="flex items-center px-1 lg:px-0"
+          href="/"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTg0IiBoZWlnaHQ9IjQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="analytics logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </div>
+        </a>
+        <div
+          class="flex-1 pl-20 space-x-10"
+        >
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
+          >
+            Products
+          </a>
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
+          >
+            Pricing
+          </a>
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
+          >
+            FAQ
+          </a>
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
+          >
+            Blog
+          </a>
+          <a
+            class="hidden hover:text-secondary lg:inline-block"
+            href="#"
+          >
+            About
+          </a>
+        </div>
+        <div
+          class="pr-6 space-x-0 md:space-x-10 lg:pr-0"
+        >
+          <button
+            class="hover:text-secondary w-max text-secondary-text md:text-chart"
+          >
+            Sign In
+          </button>
+          <button
+            class="hidden p-2 px-12 border border-solid rounded-full border-outline md:inline-block hover:bg-primary hover:border-opacity-0 active:bg-primary-hover"
+          >
+            Sign Up
+          </button>
+        </div>
+        <button
+          class="px-1 rounded-md lg:hidden text-secondary-text md:hover:bg-outline active:bg-primary active:text-white"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+            data-testid="MenuRoundedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="PrivateSwipeArea-root css-n2n0ek"
+        style="width: 20px;"
+      />
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

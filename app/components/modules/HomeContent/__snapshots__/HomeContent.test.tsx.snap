@@ -1,0 +1,658 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Module HomeContent should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="h-16 pt-4 md:h-32 skewed-full md:skewed-full bg-primary drop-shadow-xl bleed-width"
+      >
+        <div
+          class="h-16 shadow-inner md:h-32 skewed-full md:skewed-full bg-chart bleed-width"
+        />
+      </div>
+      <div
+        class="pt-12 pb-24 md:pb-12 bg-chart bleed-width"
+      >
+        <div
+          class="container flex flex-col items-center justify-center mx-auto text-primary-text"
+        >
+          <div
+            class="px-4 md:px-0 max-w-7xl"
+          >
+            <div
+              class="md:text-center"
+            >
+              <h2
+                class="text-3xl font-bold md:text-5xl"
+              >
+                Main Features
+              </h2>
+              <p
+                class="pt-6 text-sm text-secondary-text md:text-lg md:pt-12"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet. Id vel in nam malesuada.
+              </p>
+            </div>
+            <div
+              class="flex flex-col pt-6 text-center md:flex-row md:pt-16"
+            >
+              <div
+                class="flex pt-6 md:pt-0 md:block"
+              >
+                <div
+                  class="flex-shrink-0"
+                >
+                  <div
+                    style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                  >
+                    <div
+                      style="box-sizing: border-box; display: block; max-width: 100%;"
+                    >
+                      <img
+                        alt=""
+                        aria-hidden="true"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="flex-shrink pl-6 text-left md:pl-0 md:text-center"
+                >
+                  <h4
+                    class="font-bold md:pt-2"
+                  >
+                    Monitoring 24/7
+                  </h4>
+                  <p
+                    class="pt-3 text-sm text-secondary-text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipis cing elit. Elementum nisi aliquet volutpat.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex pt-6 md:pt-0 md:block"
+              >
+                <div
+                  class="flex-shrink-0"
+                >
+                  <div
+                    style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                  >
+                    <div
+                      style="box-sizing: border-box; display: block; max-width: 100%;"
+                    >
+                      <img
+                        alt=""
+                        aria-hidden="true"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="flex-shrink pl-6 text-left md:pl-0 md:text-center"
+                >
+                  <h4
+                    class="font-bold md:pt-2"
+                  >
+                    Widget System
+                  </h4>
+                  <p
+                    class="pt-3 text-sm text-secondary-text"
+                  >
+                    Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex pt-6 md:pt-0 md:block"
+              >
+                <div
+                  class="flex-shrink-0"
+                >
+                  <div
+                    style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                  >
+                    <div
+                      style="box-sizing: border-box; display: block; max-width: 100%;"
+                    >
+                      <img
+                        alt=""
+                        aria-hidden="true"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                      />
+                    </div>
+                    <img
+                      data-nimg="intrinsic"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                    />
+                    <noscript />
+                  </div>
+                </div>
+                <div
+                  class="flex-shrink pl-6 text-left md:pl-0 md:text-center"
+                >
+                  <h4
+                    class="font-bold md:pt-2"
+                  >
+                    Best Performance
+                  </h4>
+                  <p
+                    class="pt-3 text-sm text-secondary-text"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipis cing elit. Elementum nisi aliquet volutpat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full px-4 pt-12 space-y-24 lg:space-y-32 md:px-0 md:pt-28"
+          >
+            <div
+              class="flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 md:flex-row"
+            >
+              <div
+                class="md:flex md:justify-start md:w-1/2"
+              >
+                <div
+                  class="max-w-lg"
+                >
+                  <h2
+                    class="text-3xl font-bold lg:text-5xl"
+                  >
+                    Automated Reports & Widget Alerts
+                  </h2>
+                  <p
+                    class="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-image"
+              >
+                <div
+                  style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                >
+                  <div
+                    style="display: block; box-sizing: border-box; padding-top: 68.33333333333333%;"
+                  />
+                  <img
+                    data-nimg="responsive"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 md:space-x-reverse md:flex-row-reverse"
+            >
+              <div
+                class="md:flex md:justify-end md:w-1/2"
+              >
+                <div
+                  class="max-w-lg"
+                >
+                  <h2
+                    class="text-3xl font-bold lg:text-5xl"
+                  >
+                    Fully customizable to address your needs
+                  </h2>
+                  <p
+                    class="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-image"
+              >
+                <div
+                  style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                >
+                  <div
+                    style="display: block; box-sizing: border-box; padding-top: 68.33333333333333%;"
+                  />
+                  <img
+                    data-nimg="responsive"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 md:flex-row"
+            >
+              <div
+                class="md:flex md:justify-start md:w-1/2"
+              >
+                <div
+                  class="max-w-lg"
+                >
+                  <h2
+                    class="text-3xl font-bold lg:text-5xl"
+                  >
+                    Pre-built Dashboard Templates
+                  </h2>
+                  <p
+                    class="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-image"
+              >
+                <div
+                  style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                >
+                  <div
+                    style="display: block; box-sizing: border-box; padding-top: 68.33333333333333%;"
+                  />
+                  <img
+                    data-nimg="responsive"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="h-16 bottom-2 md:h-32 skewed-full-reverse bg-primary drop-shadow-xl bleed-width"
+      >
+        <div
+          class="h-16 bottom-4 md:h-32 skewed-full-reverse bg-chart bleed-width"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="h-16 pt-4 md:h-32 skewed-full md:skewed-full bg-primary drop-shadow-xl bleed-width"
+    >
+      <div
+        class="h-16 shadow-inner md:h-32 skewed-full md:skewed-full bg-chart bleed-width"
+      />
+    </div>
+    <div
+      class="pt-12 pb-24 md:pb-12 bg-chart bleed-width"
+    >
+      <div
+        class="container flex flex-col items-center justify-center mx-auto text-primary-text"
+      >
+        <div
+          class="px-4 md:px-0 max-w-7xl"
+        >
+          <div
+            class="md:text-center"
+          >
+            <h2
+              class="text-3xl font-bold md:text-5xl"
+            >
+              Main Features
+            </h2>
+            <p
+              class="pt-6 text-sm text-secondary-text md:text-lg md:pt-12"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet. Id vel in nam malesuada.
+            </p>
+          </div>
+          <div
+            class="flex flex-col pt-6 text-center md:flex-row md:pt-16"
+          >
+            <div
+              class="flex pt-6 md:pt-0 md:block"
+            >
+              <div
+                class="flex-shrink-0"
+              >
+                <div
+                  style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                >
+                  <div
+                    style="box-sizing: border-box; display: block; max-width: 100%;"
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                    />
+                  </div>
+                  <img
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </div>
+              </div>
+              <div
+                class="flex-shrink pl-6 text-left md:pl-0 md:text-center"
+              >
+                <h4
+                  class="font-bold md:pt-2"
+                >
+                  Monitoring 24/7
+                </h4>
+                <p
+                  class="pt-3 text-sm text-secondary-text"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipis cing elit. Elementum nisi aliquet volutpat.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex pt-6 md:pt-0 md:block"
+            >
+              <div
+                class="flex-shrink-0"
+              >
+                <div
+                  style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                >
+                  <div
+                    style="box-sizing: border-box; display: block; max-width: 100%;"
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                    />
+                  </div>
+                  <img
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </div>
+              </div>
+              <div
+                class="flex-shrink pl-6 text-left md:pl-0 md:text-center"
+              >
+                <h4
+                  class="font-bold md:pt-2"
+                >
+                  Widget System
+                </h4>
+                <p
+                  class="pt-3 text-sm text-secondary-text"
+                >
+                  Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex pt-6 md:pt-0 md:block"
+            >
+              <div
+                class="flex-shrink-0"
+              >
+                <div
+                  style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+                >
+                  <div
+                    style="box-sizing: border-box; display: block; max-width: 100%;"
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                      style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                    />
+                  </div>
+                  <img
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </div>
+              </div>
+              <div
+                class="flex-shrink pl-6 text-left md:pl-0 md:text-center"
+              >
+                <h4
+                  class="font-bold md:pt-2"
+                >
+                  Best Performance
+                </h4>
+                <p
+                  class="pt-3 text-sm text-secondary-text"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipis cing elit. Elementum nisi aliquet volutpat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 pt-12 space-y-24 lg:space-y-32 md:px-0 md:pt-28"
+        >
+          <div
+            class="flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 md:flex-row"
+          >
+            <div
+              class="md:flex md:justify-start md:w-1/2"
+            >
+              <div
+                class="max-w-lg"
+              >
+                <h2
+                  class="text-3xl font-bold lg:text-5xl"
+                >
+                  Automated Reports & Widget Alerts
+                </h2>
+                <p
+                  class="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-image"
+            >
+              <div
+                style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+              >
+                <div
+                  style="display: block; box-sizing: border-box; padding-top: 68.33333333333333%;"
+                />
+                <img
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 md:space-x-reverse md:flex-row-reverse"
+          >
+            <div
+              class="md:flex md:justify-end md:w-1/2"
+            >
+              <div
+                class="max-w-lg"
+              >
+                <h2
+                  class="text-3xl font-bold lg:text-5xl"
+                >
+                  Fully customizable to address your needs
+                </h2>
+                <p
+                  class="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-image"
+            >
+              <div
+                style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+              >
+                <div
+                  style="display: block; box-sizing: border-box; padding-top: 68.33333333333333%;"
+                />
+                <img
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center w-full space-y-4 lg:space-y-0 md:space-x-10 md:flex-row"
+          >
+            <div
+              class="md:flex md:justify-start md:w-1/2"
+            >
+              <div
+                class="max-w-lg"
+              >
+                <h2
+                  class="text-3xl font-bold lg:text-5xl"
+                >
+                  Pre-built Dashboard Templates
+                </h2>
+                <p
+                  class="max-w-lg pt-6 text-sm text-secondary-text lg:text-lg md:pt-12"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex-grow w-full max-w-lg shadow-xl lg:max-w-full lg:w-1/2 rounded-image"
+            >
+              <div
+                style="display: block; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+              >
+                <div
+                  style="display: block; box-sizing: border-box; padding-top: 68.33333333333333%;"
+                />
+                <img
+                  data-nimg="responsive"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 bottom-2 md:h-32 skewed-full-reverse bg-primary drop-shadow-xl bleed-width"
+    >
+      <div
+        class="h-16 bottom-4 md:h-32 skewed-full-reverse bg-chart bleed-width"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
