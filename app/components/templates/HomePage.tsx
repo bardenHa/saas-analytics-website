@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import LandingHero from '@module/LandingHero/LandingHero';
+import HomeContent from '@module/HomeContent/HomeContent';
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <LandingHero />
+      <HomeContent />
       <div className="h-screen">
         <h1 className="p-4 text-4xl font-bold text-center text-white lg:text-7xl">
           Site under construction 🚧
