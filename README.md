@@ -1,8 +1,30 @@
-# Under Construction :construction:
+# SaaS Analytics Website
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project was a simple mockup of a SaaS website homepage. There was a lot of new development processes and technologies I wanted to gain experience with, namely `Typescript`, `Jest`, `React Testing Library` and CI/CD. So I just thought I'd throw together a basic page and from this [design](https://www.figma.com/community/file/905814382591046401).
 
-## Getting Started
+I also wanted to focus on using a scalable file structure (even though this is a tiny project) just so I could get a practical understanding of best practices on a larger project; so if you're wondering why some things are unnecessarily abstracted, there's your answer.
+
+## Overview
+
+- This project runs [Next.js](https://nextjs.org/) under the hood.
+- Typescript for type checking
+- Tailwind for styling
+- Jest for running unit/integration tests
+- React Test Library for testing react components
+- Eslint for linting rule enforcement
+- Prettier for format enforcement
+- Github Actions for CI
+  - Checks linting, formatting, types, unit tests & build
+  - Runs on pull requests to any branch
+  - Required on Prod/Staging/Dev branches with security rules
+- Vercel for CD
+  - Deploys preview/production builds to branches staging/production respectively
+
+## Demo
+
+Take a look at the [production](https://saas-analytics-website.vercel.app/) build
+
+## Run Locally
 
 First, run the development server:
 
@@ -12,25 +34,8 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## License
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project uses the [MIT License](saas-analytics-website/LICENSE).
